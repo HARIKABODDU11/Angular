@@ -1,0 +1,6 @@
+<p>component3 works!</p>
+
+<input #myInput type="text">
+<button (click)="onClick(myInput.value)">Greet</button>
+
+<app-component4 [parentData]="myInput.value"></app-component4>
